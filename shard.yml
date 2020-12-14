@@ -1,0 +1,11 @@
+name: bottle
+version: 0.1.1
+
+dependencies:
+  readline:
+    github: crystal-lang/crystal-readline
+
+authors:
+  - 636f7374
+
+license: MIT
