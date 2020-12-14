@@ -7,12 +7,12 @@
 <p align="center">
   <a href="https://crystal-lang.org">
     <img src="https://img.shields.io/badge/built%20with-crystal-000000.svg" /></a>
-  <a href="https://travis-ci.org/636f7374/bottle.cr">
-    <img src="https://api.travis-ci.org/636f7374/bottle.cr.svg" /></a>
-  <a href="https://github.com/636f7374/bottle.cr/releases">
-    <img src="https://img.shields.io/github/release/636f7374/bottle.cr.svg" /></a>
-  <a href="https://github.com/636f7374/bottle.cr/blob/master/license">
-  	<img src="https://img.shields.io/github/license/636f7374/bottle.cr.svg"></a>
+  <a href="https://github.com/636f7374/coffee.cr/actions">
+    <img src="https://github.com/636f7374/coffee.cr/workflows/Continuous%20Integration/badge.svg" /></a>
+  <a href="https://github.com/73686f77/bottle.cr/releases">
+    <img src="https://img.shields.io/github/release/73686f77/bottle.cr.svg" /></a>
+  <a href="https://github.com/73686f77/bottle.cr/blob/master/license">
+  	<img src="https://img.shields.io/github/license/73686f77/bottle.cr.svg"></a>
 </p>
 
 <div align = "center"><img src="images/github.png"></a></div>
@@ -57,13 +57,13 @@ Add this to your application's shard.yml:
 ```yaml
 dependencies:
   bottle:
-    github: 636f7374/bottle.cr
+    github: 73686f77/bottle.cr
 ```
 
 ### Installation
 
 ```bash
-$ git clone https://github.com/636f7374/bottle.cr.git
+$ git clone https://github.com/73686f77/bottle.cr.git
 $ cd bottle.cr && make build && make install
 ```
 
@@ -75,7 +75,7 @@ $ cd bottle.cr && make build && make install
 
 |Name|Creator|Maintainer|Contributor|
 |:---:|:---:|:---:|:---:|
-|**[636f7374](https://github.com/636f7374)**|√|√||
+|**[73686f77](https://github.com/73686f77)**|√|√||
 
 ## License
 

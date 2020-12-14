@@ -24,10 +24,10 @@ after_success:
 deploy:
   provider: releases
   api_key:
-    secure: urxsO2hfkn+85ErKnygaxagCiX+CKQEH4Nb+ScqO7GApq8ew8A4cNN63ryGL51K2vDVA4Y9iM/kfREwa0MQmTEjvcUJ5KxR9U6uepiBnmsg1OCNjbQJ3m4IP553meRfaE160jh2Yakw7Hr+lcUlTVEhDO+IRd/q4RnF60jUfl6PDli3WLDspRlGO0ZuF5YZMNfeTBs8zrZXU7A3oavFKBbPUVi4q5JblqQ5mJuXQXJWtxm9jKKkTFWRNRPLUbbT47ogSB1LNw01p6mi1HTR7Mu2PNdW08D1Rm7FHFD9v2BDOWyE+0WBRL5+7qdAUuoYdlpzhd9Mz/lkrBTbAg5gIAe760s0cWIqR/73Hn8HxHmXAoEg75JOH1/1OEa1BCkwCw++nhrLawRRPJgexdVt+SkNLJafuxA5u0YTPvOs2G4q+qmVyF3ASOquIJULAPmKejI5aavnasPMpN84ke79B1PC6llZKbd7PxOeKELhYuPvX5F2arKDL7SeHYZxzpOtTeZwa+MH+kpU+hbtH2oiChXMxwntb9ktBmhRmN3QocvnTYeU+KVexHmZypQmYDiPJwYCsUw2EUeZRXLItuzPjH9NuxpO9lN8HPckY5OUjS6FyCP4kLZp3hZIR1/EfFZhwIi0FYI0rFzA8cbtv6AUKSW8dCMCgVLpISYPL7QjIvlU=
+    secure: ""
   file: "$DEPLOY_FILENAME"
   skip_cleanup: true
   on:
     tags: true
     all_branches: true
-    repo: 636f7374/bottle.cr
+    repo: 73686f77/bottle.cr
