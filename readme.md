@@ -75,7 +75,7 @@ $ cd bottle.cr && make build && make install
 
 |Name|Creator|Maintainer|Contributor|
 |:---:|:---:|:---:|:---:|
-|**[73686f77](https://github.com/73686f77)**|√|√||
+|**[636f7374](https://github.com/636f7374)**|√|√||
 
 ## License
 
