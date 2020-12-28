@@ -51,13 +51,13 @@ class Match
 
     def self.github(match : Match)
       entry = Entry.new
-      entry.from = /(<div id=\'desktop-app-container\')>/
-      entry.to = "\\1 style=\"font-family: Monaco\">"
+      entry.from = /var\(--font-family-sans-serif\)/
+      entry.to = "Monaco;"
       match.entry << entry
 
       entry = Entry.new
-      entry.from = /(font-family: )var(.*?);/
-      entry.to = "\\1Monaco;"
+      entry.from = /(<div id=\'desktop-app-container\')>/
+      entry.to = "\\1 style=\"font-family: Monaco\">"
       match.entry << entry
 
       entry = Entry.new
