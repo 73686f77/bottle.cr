@@ -20,12 +20,6 @@ class Bottle::Config
     match.fileName << "workbench.desktop.main.css"
     match.ask = "app/out/vs/workbench Directory"
     config.matchs << match
-
-    match = Match.new
-    Match::Entry.vscode match
-    match.fileName << "main.js"
-    match.ask = "webview/browser/pre Directory"
-    config.matchs << match
   end
 end
 

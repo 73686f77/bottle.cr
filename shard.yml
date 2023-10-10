@@ -1,9 +1,13 @@
 name: bottle
-version: 0.1.1
+version: 0.1.2
 
 dependencies:
   readline:
     github: crystal-lang/crystal-readline
+
+targets:
+  bottle:
+    main: cli.cr
 
 authors:
   - 636f7374
